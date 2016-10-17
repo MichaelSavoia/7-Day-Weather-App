@@ -21,7 +21,8 @@ body {
     margin-right: 0;
     font-size: 1.4rem;
     border: 2px solid black;
-    outline: none; }
+    outline: none;
+    text-transform: uppercase; }
   #search button {
     display: inline-block;
     padding: 10px;
@@ -34,6 +35,7 @@ body {
 #cityHere {
   margin-top: 80px;
   text-align: center;
+  font-size: 5rem;
   color: black; }
 
 .container-fluid {
