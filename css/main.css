@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.title h1 {
+  font-size: 8rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 10px; }
+
+#search {
+  display: block;
+  text-align: center;
+  margin-top: 20px; }
+  #search input {
+    display: inline-block;
+    padding: 10px;
+    width: 40%;
+    margin-right: 0;
+    font-size: 1.4rem;
+    border: 2px solid black;
+    outline: none; }
+  #search button {
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+    font-size: 1.4rem;
+    background-color: white;
+    border: 2px solid black;
+    outline: none; }
+
+#cityHere {
+  margin-top: 80px;
+  text-align: center;
+  color: black; }
+
+.container-fluid {
+  text-align: center; }
+  .container-fluid .weatherDay {
+    padding: 5px;
+    margin: 20px 46px;
+    border: 2px solid black;
+    text-align: center; }
+    .container-fluid .weatherDay h3 {
+      font-size: 2rem;
+      line-height: 1rem; }
+    .container-fluid .weatherDay h4 {
+      text-transform: uppercase;
+      padding-top: 10px;
+      font-size: 1.4rem;
+      font-weight: 300; }
